@@ -1,8 +1,8 @@
 import "./Blogs.css";
 import styles from "./Blogs.module.css";
 
-const Bogs = () => {
+const Blogs = () => {
   return <div>Bogs</div>;
 };
 
-export default Bogs;
+export default Blogs;
