@@ -1,0 +1,14 @@
+.footer {
+  background-color: #f4fffb;
+}
+
+.container {
+  padding: 60px 0 30px;
+}
+
+.copyright {
+  padding: 27px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
