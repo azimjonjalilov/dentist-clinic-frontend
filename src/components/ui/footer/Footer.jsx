@@ -11,17 +11,20 @@ import { TeethIcon } from "../icons/Icons";
 
 const Footer = () => {
   return (
-    <footer className={`container ${styles.footer}`}>
-      <div className={styles.container}>
+    <footer className={styles.footer}>
+      <div className={`container ${styles.container}`}>
         {/* Brand */}
-        <div className="footer-brand">
+        <div className={styles.brand}>
           <Link to="/" className={styles.logo}>
             <TeethIcon />
             <span>Dentish</span>
           </Link>
-          <p>Enhance Your Quality of Life Through a Healthy Smile With Us.</p>
+          <p>
+            Enhance Your Quality of Life Through a <br />
+            Healthy Smile With Us.
+          </p>
 
-          <ul className="socials">
+          <ul className={styles.socials}>
             <li>
               <a href="/">
                 <FaFacebookF />
@@ -41,8 +44,8 @@ const Footer = () => {
         </div>
 
         {/* Menu */}
-        <div className="footer-menu">
-          <h3 className="title">Menus</h3>
+        <div className={styles.menu}>
+          <h3 className={styles.title}>Menus</h3>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -60,39 +63,35 @@ const Footer = () => {
         </div>
 
         {/* Working Hours */}
-        <div className="footer-hours">
-          <h3 className="title">Working hours</h3>
+        <div className={styles.hours}>
+          <h3 className={styles.title}>Working hours</h3>
 
-          <div className="time">
+          <div className={styles.content}>
             <span>Monday - Friday</span>
             <span>09:00 - 18:00</span>
-          </div>
-
-          <div className="time">
             <span>Saturday</span>
             <span>09:00 - 12:00</span>
-          </div>
-
-          <div className="time">
             <span>Sunday</span>
             <span>Close</span>
           </div>
         </div>
 
         {/* Contact */}
-        <div className="footer-contact">
-          <h3 className="title">Contact</h3>
+        <div className={styles.contact}>
+          <h3 className={styles.title}>Contact</h3>
 
-          <a href="/" className="phone">
+          <a href="/">
             <FaPhoneAlt />
-            +62 894 3292 9555
+            <span>+99 890 123 45 67</span>
           </a>
 
-          <button className="appointment">Book an appointment now</button>
+          <button>Book an appointment now</button>
         </div>
       </div>
 
-      <div className={styles.copyright}>
+      <hr className={styles.line} />
+
+      <div className={`container ${styles.copyright}`}>
         <p>All Rights Reserved Dentish 2026</p>
       </div>
     </footer>
