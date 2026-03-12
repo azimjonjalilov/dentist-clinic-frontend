@@ -1,0 +1,7 @@
+.container {
+  min-height: 535px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50px;
+}
