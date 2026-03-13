@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #ffffff;
+  font-family: var(--roboto);
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: var(--roboto);
+}
