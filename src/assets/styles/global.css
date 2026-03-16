@@ -18,6 +18,10 @@ input {
   border: none;
 }
 
+button {
+  background: none;
+}
+
 input {
   outline: none;
 }
@@ -41,4 +45,57 @@ input {
   font-weight: 400;
   color: #ffffff;
   font-family: var(--roboto);
+}
+
+.section-subtitle {
+  font-size: 16px;
+  line-height: auto;
+  font-weight: 500;
+  font-family: var(--roboto);
+  color: #00ce9c;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: auto;
+  font-weight: 800;
+  font-family: var(--roboto);
+  color: #001a78;
+}
+
+.section-desc {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: var(--roboto);
+  color: #141414;
+}
+
+.btn-primary {
+  padding: 10px 30px;
+  border: 2px solid #001a78;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #001a78;
+  font-family: var(--roboto);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.btn-primary:hover {
+  background: #001a78;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 26, 120, 0.3);
+}
+
+.btn-primary:active {
+  background: transparent;
+  color: #001a78;
+  transform: translateY(0px);
+  box-shadow: none;
 }
