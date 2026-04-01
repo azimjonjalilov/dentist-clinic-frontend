@@ -1,4 +1,5 @@
 import MainSection from "../../components/ui/mainSection/MainSection";
+import RegisterSection from "../../components/ui/registerSection/RegisterSection";
 import ServiceInfo from "../../components/ui/serviceSection/ServiceInfo";
 import ServiceSection from "../../components/ui/serviceSection/serviceSection";
 import WhatWeDo from "../../components/ui/whatWeDo/WhatWeDo";
@@ -16,6 +17,7 @@ const Home = () => {
         <ServiceSection />
         <ServiceInfo />
       </section>
+      <RegisterSection />
     </>
   );
 };
