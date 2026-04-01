@@ -1,3 +1,4 @@
+import BlogsSection from "../../components/ui/blogsSection/BlogsSection";
 import MainSection from "../../components/ui/mainSection/MainSection";
 import RegisterSection from "../../components/ui/registerSection/RegisterSection";
 import ServiceInfo from "../../components/ui/serviceSection/ServiceInfo";
@@ -18,6 +19,7 @@ const Home = () => {
         <ServiceInfo />
       </section>
       <RegisterSection />
+      <BlogsSection />
     </>
   );
 };
