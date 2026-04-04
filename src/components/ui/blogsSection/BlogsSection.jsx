@@ -24,7 +24,7 @@ const BlogsSection = () => {
           <Blog />
         </div>
 
-        <Link to="/blogs" className={styles.viewAll}>
+        <Link to="/blogs" className={`btn-primary ${styles.viewAll}`}>
           See More
         </Link>
       </div>

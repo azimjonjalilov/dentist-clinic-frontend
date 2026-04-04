@@ -39,6 +39,7 @@
         width: 100%;
         aspect-ratio: 3 / 2;
         overflow: hidden;
+        border-radius: 10px;
 
         img {
           width: 100%;
@@ -59,14 +60,41 @@
         align-items: flex-start;
         margin-top: 12px;
 
+        span {
+          font-size: 10px;
+          line-height: 17px;
+          font-weight: 700;
+          color: #000000;
+          font-family: var(--roboto);
+        }
+
         h3 {
           margin-top: 5px;
+          font-size: 18px;
+          line-height: 25px;
+          font-weight: 600;
+          color: #001a78;
+          font-family: var(--roboto);
         }
 
         a {
-          margin-top: auto;
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-size: 12px;
+          line-height: 12px;
+          font-weight: 800;
+          color: #001a78;
+          font-family: var(--roboto);
         }
       }
     }
+  }
+
+  .viewAll {
+    width: max-content;
+    display: block;
+    margin: 57px auto 0;
   }
 }
