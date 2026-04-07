@@ -1,6 +1,7 @@
 import styles from "./BlogsSection.module.css";
 import Blog from "./Blog";
 import { Link } from "react-router-dom";
+import { blogsData } from "../../../data/data";
 
 const BlogsSection = () => {
   return (
@@ -16,12 +17,9 @@ const BlogsSection = () => {
       {/* blogs container */}
       <div className={styles.blogsContainer}>
         <div className={styles.container}>
-          <Blog />
-          <Blog />
-          <Blog />
-          <Blog />
-          <Blog />
-          <Blog />
+          {blogsData.slice(0, 6).map((blog) => (
+            <Blog key={blog.id} blog={blog} />
+          ))}
         </div>
 
         <Link to="/blogs" className={`btn-primary ${styles.viewAll}`}>
