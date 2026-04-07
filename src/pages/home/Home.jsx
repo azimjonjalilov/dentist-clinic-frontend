@@ -3,6 +3,7 @@ import MainSection from "../../components/ui/mainSection/MainSection";
 import RegisterSection from "../../components/ui/registerSection/RegisterSection";
 import ServiceInfo from "../../components/ui/serviceSection/ServiceInfo";
 import ServiceSection from "../../components/ui/serviceSection/serviceSection";
+import TestimonialsSection from "../../components/ui/testimonialsSection/TestimonialsSection";
 import WhatWeDo from "../../components/ui/whatWeDo/WhatWeDo";
 import WhyChooseUs from "../../components/ui/whyChooseUs/WhyChooseUs";
 import "./Home.css";
@@ -20,6 +21,7 @@ const Home = () => {
       </section>
       <RegisterSection />
       <BlogsSection />
+      <TestimonialsSection />
     </>
   );
 };

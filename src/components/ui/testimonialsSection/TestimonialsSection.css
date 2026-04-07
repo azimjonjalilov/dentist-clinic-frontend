@@ -1,0 +1,22 @@
+.swiper-wrapper {
+  padding-bottom: 32px;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+  align-items: center !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #d9d9d9 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #001a78 !important;
+}
